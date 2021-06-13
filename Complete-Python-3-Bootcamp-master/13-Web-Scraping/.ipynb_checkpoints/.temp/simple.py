@@ -1,6 +1,6 @@
 import os
 
-for i in range(50):
+for i in range(30):
     d = str(i) + ' days ago'
     with open('bot.txt', 'a') as file:
         file.write(d+'\n')
